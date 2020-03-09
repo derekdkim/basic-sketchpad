@@ -1,0 +1,17 @@
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(16, 20px);
+  grid-template-rows: repeat(16, 20px);
+}
+
+#grid-container div {
+  border: 1px solid;
+}
+
+#grid-container .grid:hover {
+  background-color: black;
+}
+
+.filled {
+  background-color: black;
+}
